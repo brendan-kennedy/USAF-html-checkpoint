@@ -31,12 +31,26 @@
     justify-content: space-between;
 }
 
+.great-houses-flex-container4{ 
+    display: flex; 
+ 
+    justify-content: center;
+}
+
 .card-greathouse{ 
     
     grid-row: 1 ;
     grid-column: 1; 
     max-height: 1;
     max-width: 1;
+}
+
+.grid-wrapper2{ 
+    display: grid;
+    
+  grid-template-columns: 1;
+  grid-template-rows: 1;  
+
 }
 
 
