@@ -2,3 +2,39 @@
     font: papyrus;  
 
 }
+
+.grid-wrapper{ 
+    display: grid;
+    
+  grid-template-columns: 3;
+  grid-template-rows: 3;  
+
+}
+
+.great-houses-flex-container1{ 
+    display: flex; 
+ 
+    
+    justify-content: space-between;
+}
+
+.great-houses-flex-container2{ 
+    display: flex; 
+     
+    
+    justify-content: space-between;
+}
+
+.great-houses-flex-container3{ 
+    display: flex; 
+ 
+    justify-content: space-between;
+}
+
+.card-greathouse{ 
+    grid-row: 1 ;
+    grid-column: 1; 
+    max-height: 1;
+    max-width: 1;
+}
+
